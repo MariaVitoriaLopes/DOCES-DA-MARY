@@ -1,9 +1,9 @@
-<p align="center">
+
   <img src="print/1.png" alt="Banner" width="1100"/>
-</p>
-<p align="center">
+  
+
   <img src="print/2.png" alt="Banner" width="1100"/>
-</p>
+
 <p align="center">
   <img src="print/3.png" alt="Banner de Boas-Vindas" width="1100"/>
 </p>
