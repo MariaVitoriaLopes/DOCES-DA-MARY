@@ -1,0 +1,149 @@
+/* Variáveis de Cores e Fontes */
+:root {
+    /* Cores que remetem a doces */
+    --cor-doce-rosa: #FF69B4; /* Rosa Choque/Pink - Principal */
+    --cor-doce-pessego: #FFDAB9; /* Pêssego Claro - Secundária */
+    --cor-doce-creme: #FDF5E6; /* Creme/Bege - Fundo claro */
+    --cor-texto-escuro: #4B0082; /* Roxo Escuro para contraste */
+
+    /* Fontes - Use as fontes importadas no HTML */
+    --fonte-titulo: 'Dancing Script', cursive;
+    --fonte-corpo: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--fonte-corpo);
+    color: var(--cor-texto-escuro);
+    background-color: var(--cor-doce-creme);
+}
+
+/* --- Títulos e Headings --- */
+.custom-heading {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-doce-rosa);
+    font-size: 3em;
+    font-weight: 700;
+}
+
+/* --- LOGO --- */
+.logo-doce {
+    font-family: var(--fonte-titulo);
+    font-size: 2em;
+    color: var(--cor-doce-rosa) !important;
+}
+.logo-doce:hover {
+    color: var(--cor-texto-escuro) !important;
+}
+
+/* --- NAVBAR --- */
+.custom-navbar {
+    background-color: #FFFFFF !important; /* Fundo branco ou creme */
+}
+
+.custom-navbar .nav-link {
+    color: var(--cor-texto-escuro) !important;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.custom-navbar .nav-link:hover {
+    color: var(--cor-doce-rosa) !important;
+}
+
+.custom-btn-login {
+    border-color: var(--cor-doce-rosa) !important;
+    color: var(--cor-doce-rosa) !important;
+}
+
+.custom-btn-login:hover {
+    background-color: var(--cor-doce-rosa) !important;
+    color: #FFFFFF !important;
+}
+
+/* --- HERO SECTION --- */
+.hero {
+    /* Cor de fundo base ou placeholder para imagem de fundo */
+    background-color: var(--cor-doce-pessego);
+    min-height: 80vh; 
+}
+
+.hero h1 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-doce-rosa);
+}
+
+.hero p.lead {
+    color: var(--cor-texto-escuro);
+    font-weight: 300;
+}
+
+.hero-content {
+    background-color: rgba(255, 255, 255, 0.7); /* Fundo semi-transparente para o texto */
+    border-radius: 15px;
+}
+
+/* --- BOTÕES --- */
+.custom-btn-cta {
+    background-color: var(--cor-doce-rosa) !important;
+    border-color: var(--cor-doce-rosa) !important;
+}
+
+.custom-btn-cta:hover {
+    background-color: #E65A9C !important; 
+    border-color: #E65A9C !important;
+}
+
+.custom-btn-secundario {
+    border: 2px solid var(--cor-doce-rosa) !important;
+    color: var(--cor-doce-rosa) !important;
+    background-color: transparent !important;
+    font-weight: 600;
+}
+
+.custom-btn-secundario:hover {
+    background-color: var(--cor-doce-rosa) !important;
+    color: #FFFFFF !important;
+}
+
+
+/* --- PRODUTOS CARDS --- */
+.custom-card {
+    background-color: #FFFFFF;
+    border: 1px solid var(--cor-doce-pessego) !important;
+}
+
+.custom-img-placeholder {
+    height: 250px;
+    object-fit: cover;
+    background-color: var(--cor-doce-creme); /* Cor de fundo para as imagens */
+}
+
+.card-title {
+    color: var(--cor-doce-rosa) !important;
+    font-weight: 600;
+}
+
+/* --- AVALIAÇÕES --- */
+.custom-depoimento-card {
+    border-left: 5px solid var(--cor-doce-rosa) !important;
+    background-color: #FFFFFF;
+}
+
+.blockquote-footer {
+    color: var(--cor-doce-rosa) !important;
+}
+
+/* --- CONTATO --- */
+.custom-contato-bg {
+    background-color: var(--cor-doce-pessego);
+}
+
+.custom-contato-bg .form-label {
+    font-weight: 600;
+    color: var(--cor-texto-escuro);
+}
+
+/* --- RODAPÉ --- */
+.custom-footer {
+    background-color: var(--cor-texto-escuro) !important; /* Cor escura para contraste */
+}
